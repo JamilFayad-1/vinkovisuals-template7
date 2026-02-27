@@ -1,5 +1,5 @@
 {
-  "name": "negative-films",
+  "name": "vinko-visuals",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/harrnish/negative-films.git"
+    "url": "git+https://github.com/harrnish/vinko-visuals.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/harrnish/negative-films/issues"
+    "url": "https://github.com/harrnish/vinko-visuals/issues"
   },
-  "homepage": "https://github.com/harrnish/negative-films#readme",
+  "homepage": "https://github.com/harrnish/vinko-visuals#readme",
   "description": "",
   "dependencies": {
     "gsap": "^3.13.0",
