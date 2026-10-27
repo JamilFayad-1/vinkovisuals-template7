@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (isPageNavigation) {
     sessionStorage.removeItem("pageTransition");
-    revealTransition();
+    revealTransition().then(() => document.documentElement.classList.remove("is-page-transition"));
   } else {
     gsap.set(".transition-overlay", { scaleY: 0 });
   }

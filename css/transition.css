@@ -16,7 +16,14 @@
   width: 100%;
   height: 100%;
   background-color: var(--tone-500);
-  transform: scaleY(1);
+  /* hidden by default: before, it started full-screen and red, and flashed on every
+     first load and reload until the scripts hid it */
+  transform: scaleY(0);
   transform-origin: top;
   will-change: transform;
+}
+
+/* only when arriving from a link on this site: start covered, then transition.js reveals the page */
+html.is-page-transition .transition-overlay {
+  transform: scaleY(1);
 }
